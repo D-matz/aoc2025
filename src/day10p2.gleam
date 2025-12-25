@@ -4,6 +4,9 @@ import gleam/list
 import gleam/option.{None, Some}
 import gleam/string
 
+/// https://old.reddit.com/r/adventofcode/comments/1pk87hl/2025_day_10_part_2_bifurcate_your_way_to_victory/
+/// approach copied from u/tenthmascost
+/// without the optimization of caching results
 pub fn solve() {
   let lines =
     input

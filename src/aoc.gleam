@@ -41,10 +41,13 @@ pub fn main() {
   //prints and panics on answer
   //day8p2.solve()
   day9p1.solve()
+  //day 9 p2 may not work in some corner cases but works on my input
   day9p2.solve()
   day10p1.solve()
+  //day 10 p2 copied from https://old.reddit.com/r/adventofcode/comments/1pk87hl/2025_day_10_part_2_bifurcate_your_way_to_victory/
   day10p2.solve()
   day11p1.solve()
   day11p2.solve()
+  //day 12 wrong for example input but works for my real input
   day12p1.solve()
 }
