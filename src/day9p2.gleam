@@ -18,6 +18,7 @@ type LineVert {
   LineVert(x: Int, y_min: Int, y_max: Int)
 }
 
+//probably wrong in case where big rect outside green squares, like pacman with big open mouth
 pub fn solve() {
   let points =
     input
